@@ -4,9 +4,9 @@ simple web apps for logging user activity & get the highest activity user and fo
 <br>
 
 ## What to prepare ?
-- Latest Go version (this apps using Go 1.18.1 for development)
-- IDE (ex: VS Code, GoLand, etc.)
-- Postman (for API testing)
+- [Latest Go version](https://go.dev/doc/install) (this apps using Go 1.18.1 for development)
+- IDE (ex: [VS Code](https://code.visualstudio.com/download), [GoLand](https://www.jetbrains.com/help/go/installation-guide.html), etc.)
+- [Postman](https://www.postman.com/downloads/) (for API testing)
 <br>
 
 ## How to Run ?
