@@ -22,13 +22,19 @@ go run main.go
 ## API Documentation
 
 ### highest-activity Endpoint
-URL :
+- HTTP Method : 
+```
+POST
+```
+<br>
+
+- URL :
 ```
 localhost:8080/highest-activity
 ```
 <br>
 
-Example Request Body :
+- Example Request Body :
 ```
 [
     {
@@ -47,7 +53,7 @@ Example Request Body :
 ```
 <br>
 
-Example Success Response Body :
+- Example Success Response Body :
 ```
 {
     "code": 200,
@@ -58,7 +64,7 @@ Example Success Response Body :
 
 <br>
 
-Example Error Response Body :
+- Example Error Response Body :
 ```
 {
     "code": 405,
@@ -77,13 +83,19 @@ Example Error Response Body :
 <br>
 
 ### user-info Endpoint
-URL :
+- HTTP Method : 
+```
+POST
+```
+<br>
+
+- URL :
 ```
 localhost:8080/user-info
 ```
 <br>
 
-Example Request Body :
+- Example Request Body :
 ```
 {
     "name":"Aiman Hisyam",
@@ -95,7 +107,7 @@ Example Request Body :
 ```
 <br>
 
-Example Success Response Body :
+- Example Success Response Body :
 ```
 {
     "code": 200,
@@ -111,7 +123,7 @@ Example Success Response Body :
 ```
 <br>
 
-Example Error Response Body :
+- Example Error Response Body :
 ```
 {
     "code": 405,
